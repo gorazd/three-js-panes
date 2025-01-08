@@ -1,0 +1,21 @@
+{
+  "name": "palo-santo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve --quiet --incremental",
+    "build": "npx @11ty/eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-vite": "^5.0.2",
+    "gsap": "^3.12.5",
+    "three": "^0.171.0"
+  },
+  "type": "module"
+}
